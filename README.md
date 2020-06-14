@@ -1,5 +1,5 @@
 # laravel-social-network
-Social Network project with Laravel 7.
+Social network project with Laravel 7.
 
 # Screenshots
 ![Screenshot 1](https://github.com/codemir/laravel-social-network/blob/master/screenshots/ss1.png)
