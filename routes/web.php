@@ -23,7 +23,6 @@ Route::get('/logout', 'AuthController@logout')->name('logout')->middleware('auth
 Route::post('/createpost', 'PostController@createPost')->name('createPost')->middleware('auth');
 Route::get('/posts', 'PageController@posts')->name('posts')->middleware('auth');
 Route::delete('/posts/delete', 'PostController@deletePost')->name('deletePost')->middleware('auth');
-Route::get('/messages', 'PageController@messages')->name('messages')->middleware('auth');
 
 Route::get('/profile/u/{username}', 'PageController@profile')->name('profile')->middleware('auth');
 Route::post('/profile/follow', 'ProfileController@follow')->middleware('auth');

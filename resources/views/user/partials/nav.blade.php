@@ -29,7 +29,6 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="{{ route('profile', Auth::user()->username) }}">Profile</a>
               <a class="dropdown-item" href="{{ route('posts') }}">Posts</a>
-              <a class="dropdown-item" href="{{ route('messages') }}">Messages</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
             </div>

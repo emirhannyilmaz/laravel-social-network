@@ -67,8 +67,4 @@ class PageController extends Controller
         'posts' => $posts
       ]);
     }
-
-    public function messages() {
-      return view('user.messages');
-    }
 }
